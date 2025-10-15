@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireCrackers Hub - Premium Fireworks & Crackers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-fire"></i>
+                    <span>FireCrackers Hub</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#categories" class="nav-link">Categories</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="https://www.fireworks.com" class="nav-link" target="_blank">More Fireworks</a></li>
+                </ul>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart" id="cart-icon"></i>
+                    <span class="cart-count" id="cart-count">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">🎆 Light Up Your Celebrations 🎆</h1>
+            <p class="hero-subtitle">Premium Firecrackers & Fireworks for Every Occasion</p>
+            <div class="hero-buttons">
+                <button class="cta-button primary" onclick="scrollToProducts()">🔥 Shop Now</button>
+                <button class="cta-button secondary" onclick="scrollToCategories()">🎇 Explore Categories</button>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="firework firework-1"></div>
+            <div class="firework firework-2"></div>
+            <div class="firework firework-3"></div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="sky-shots">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop&crop=center" alt="Sky Shots Fireworks" loading="lazy">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>🚀 Sky Shots</h3>
+                    <p>High-flying aerial fireworks that light up the night sky</p>
+                    <div class="category-price">From $25</div>
+                </div>
+                <div class="category-card" data-category="ground-crackers">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=200&fit=crop&crop=center" alt="Ground Crackers" loading="lazy">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-bomb"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>💥 Ground Crackers</h3>
+                    <p>Ground-level explosive displays with powerful sound</p>
+                    <div class="category-price">From $15</div>
+                </div>
+                <div class="category-card" data-category="sparklers">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=300&h=200&fit=crop&crop=center" alt="Sparklers" loading="lazy">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-magic"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>✨ Sparklers</h3>
+                    <p>Beautiful hand-held sparkles for safe fun</p>
+                    <div class="category-price">From $8</div>
+                </div>
+                <div class="category-card" data-category="fountains">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=200&fit=crop&crop=center" alt="Fountains" loading="lazy">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-tint"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>🌊 Fountains</h3>
+                    <p>Colorful ground fountains with cascading effects</p>
+                    <div class="category-price">From $20</div>
+                </div>
+                <div class="category-card" data-category="roman-candles">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop&crop=center" alt="Roman Candles" loading="lazy">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>🕯️ Roman Candles</h3>
+                    <p>Classic multi-shot candles with spectacular effects</p>
+                    <div class="category-price">From $18</div>
+                </div>
+                <div class="category-card" data-category="combo-packs">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=300&h=200&fit=crop&crop=center" alt="Combo Packs" loading="lazy">
+                        <div class="category-overlay">
+                            <div class="category-icon">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>🎁 Combo Packs</h3>
+                    <p>Variety packs for complete celebrations</p>
+                    <div class="category-price">From $45</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All Products</button>
+                <button class="filter-tab" data-filter="sky-shots">Sky Shots</button>
+                <button class="filter-tab" data-filter="ground-crackers">Ground Crackers</button>
+                <button class="filter-tab" data-filter="sparklers">Sparklers</button>
+                <button class="filter-tab" data-filter="fountains">Fountains</button>
+                <button class="filter-tab" data-filter="roman-candles">Roman Candles</button>
+                <button class="filter-tab" data-filter="combo-packs">Combo Packs</button>
+            </div>
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About FireCrackers Hub</h2>
+                    <p>We are your premier destination for high-quality firecrackers and fireworks. With over 20 years of experience in the industry, we provide safe, legal, and spectacular fireworks for all your celebrations.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Safety First</h4>
+                            <p>All products meet strict safety standards</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <h4>Fast Delivery</h4>
+                            <p>Quick and secure shipping nationwide</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-star"></i>
+                            <h4>Premium Quality</h4>
+                            <p>Only the finest fireworks and crackers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-firework"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Fireworks Street<br>Celebration City, CC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-FIRE</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@firecrackershub.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart" id="close-cart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total: $<span id="cart-total">0.00</span></span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Cart Overlay -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-fire"></i>
+                        <span>FireCrackers Hub</span>
+                    </div>
+                    <p>Lighting up celebrations with premium fireworks since 2000.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" title="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank" title="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank" title="Subscribe to our YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://tiktok.com" target="_blank" title="Follow us on TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#" data-category="sky-shots">Sky Shots</a></li>
+                        <li><a href="#" data-category="ground-crackers">Ground Crackers</a></li>
+                        <li><a href="#" data-category="sparklers">Sparklers</a></li>
+                        <li><a href="#" data-category="fountains">Fountains</a></li>
+                        <li><a href="#" data-category="roman-candles">Roman Candles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Fireworks Street, Celebration City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-FIRE</p>
+                    <p><i class="fas fa-envelope"></i> info@firecrackershub.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FireCrackers Hub. All rights reserved. | Please follow local laws and safety guidelines.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
