@@ -519,7 +519,7 @@ function updateCartUI() {
             </div>
             <div class="cart-item-info">
                 <h4>${item.name}</h4>
-                <p>$${item.price.toFixed(2)} each</p>
+                <p>₹${item.price.toFixed(2)} each</p>
                 <div class="quantity-controls">
                     <button onclick="updateCartQuantity(${item.id}, ${item.quantity - 1})">-</button>
                     <span>${item.quantity}</span>
@@ -527,7 +527,7 @@ function updateCartUI() {
                 </div>
             </div>
             <div class="cart-item-price">
-                $${(item.price * item.quantity).toFixed(2)}
+                ₹${(item.price * item.quantity).toFixed(2)}
             </div>
             <button class="remove-item" onclick="removeFromCart(${item.id})">
                 <i class="fas fa-trash"></i>
@@ -555,7 +555,7 @@ function handleCheckout() {
     showNotification('Redirecting to checkout...', 'info');
     
     setTimeout(() => {
-        alert(`Thank you for your order!\n\nTotal: $${cartTotal.toFixed(2)}\nItems: ${cart.reduce((sum, item) => sum + item.quantity, 0)}\n\nYour order will be processed shortly.`);
+        alert(`Thank you for your order!\n\nTotal: ₹${cartTotal.toFixed(2)}\nItems: ${cart.reduce((sum, item) => sum + item.quantity, 0)}\n\nYour order will be processed shortly.`);
         
         // Clear cart
         cart = [];
