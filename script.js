@@ -5,8 +5,8 @@ const products = [
         id: 1,
         name: "Sky Rocket Supreme",
         category: "sky-shots",
-        price: 45.99,
-        image: "🚀",
+        price: 450.99,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc7pCIXf2QvJItWn3tIUwp3cpG0XEBTuxBHA&s",
         description: "High-flying aerial display with spectacular colors",
         rating: 4.8,
         stock: 25
@@ -15,7 +15,7 @@ const products = [
         id: 2,
         name: "Multi-Colored Sky Burst",
         category: "sky-shots",
-        price: 38.50,
+        price: 380.50,
         image: "🎆",
         description: "Multi-shot aerial firework with rainbow colors",
         rating: 4.7,
@@ -25,8 +25,8 @@ const products = [
         id: 3,
         name: "Thunder Strike",
         category: "sky-shots",
-        price: 52.00,
-        image: "⚡",
+        price: 520.00,
+        image: "https://images.pexels.com/photos/10967/pexels-photo-10967.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         description: "Powerful aerial explosion with thunderous sound",
         rating: 4.9,
         stock: 15
@@ -35,7 +35,7 @@ const products = [
         id: 4,
         name: "Golden Rain",
         category: "sky-shots",
-        price: 29.99,
+        price: 290.99,
         image: "✨",
         description: "Beautiful golden sparks falling from the sky",
         rating: 4.6,
@@ -47,7 +47,7 @@ const products = [
         id: 5,
         name: "Ground Thunder",
         category: "ground-crackers",
-        price: 22.99,
+        price: 202.99,
         image: "💥",
         description: "Loud ground-level explosive display",
         rating: 4.5,
@@ -57,7 +57,7 @@ const products = [
         id: 6,
         name: "Flash Bang Special",
         category: "ground-crackers",
-        price: 18.75,
+        price: 180.75,
         image: "🔆",
         description: "Bright flash with loud bang effect",
         rating: 4.4,
@@ -67,7 +67,7 @@ const products = [
         id: 7,
         name: "Echo Blast",
         category: "ground-crackers",
-        price: 25.50,
+        price: 250.50,
         image: "📢",
         description: "Echoing sound effects with visual display",
         rating: 4.7,
@@ -77,7 +77,7 @@ const products = [
         id: 8,
         name: "Ground Shaker",
         category: "ground-crackers",
-        price: 35.00,
+        price: 350.00,
         image: "🌍",
         description: "Powerful ground-shaking explosion",
         rating: 4.8,
@@ -89,8 +89,8 @@ const products = [
         id: 9,
         name: "Golden Sparklers",
         category: "sparklers",
-        price: 12.99,
-        image: "🌟",
+        price: 120.99,
+        image: "https://sakthicrackers.com/wp-content/uploads/2023/09/50-cm-Electric-Sparklers.png",
         description: "Beautiful golden sparkles for hand-held fun",
         rating: 4.6,
         stock: 60
@@ -99,8 +99,8 @@ const products = [
         id: 10,
         name: "Rainbow Sparklers",
         category: "sparklers",
-        price: 15.50,
-        image: "🌈",
+        price: 150.50,
+        image: "https://sakthicrackers.com/wp-content/uploads/2023/09/50-cm-Electric-Sparklers.png",
         description: "Multi-colored sparkles that change colors",
         rating: 4.8,
         stock: 45
@@ -109,8 +109,8 @@ const products = [
         id: 11,
         name: "Long Lasting Sparklers",
         category: "sparklers",
-        price: 19.99,
-        image: "🕯️",
+        price: 190.99,
+        image: "https://sakthicrackers.com/wp-content/uploads/2023/09/50-cm-Electric-Sparklers.png",
         description: "Extra long burning time sparklers",
         rating: 4.7,
         stock: 35
@@ -119,8 +119,8 @@ const products = [
         id: 12,
         name: "Kids Safe Sparklers",
         category: "sparklers",
-        price: 9.99,
-        image: "👶",
+        price: 90.99,
+        image: "https://sakthicrackers.com/wp-content/uploads/2023/09/50-cm-Electric-Sparklers.png",
         description: "Child-safe sparklers with reduced heat",
         rating: 4.9,
         stock: 80
@@ -131,8 +131,8 @@ const products = [
         id: 13,
         name: "Volcano Fountain",
         category: "fountains",
-        price: 28.99,
-        image: "🌋",
+        price: 280.99,
+        image: "https://sakthicrackers.com/wp-content/uploads/2023/09/50-cm-Electric-Sparklers.png",
         description: "Ground fountain with volcanic eruption effect",
         rating: 4.7,
         stock: 25
@@ -141,8 +141,8 @@ const products = [
         id: 14,
         name: "Crystal Fountain",
         category: "fountains",
-        price: 24.50,
-        image: "💎",
+        price: 240.50,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rYojF9NS03mdxNzZA1eRFrk062S4DEG4uwAiZcI3FxoaLT31YjHaOmXzoiqxkGzMvL8&usqp=CAU",
         description: "Beautiful crystal-like sparkles fountain",
         rating: 4.6,
         stock: 30
@@ -151,8 +151,8 @@ const products = [
         id: 15,
         name: "Multi-Tier Fountain",
         category: "fountains",
-        price: 42.00,
-        image: "🏛️",
+        price: 420.00,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rYojF9NS03mdxNzZA1eRFrk062S4DEG4uwAiZcI3FxoaLT31YjHaOmXzoiqxkGzMvL8&usqp=CAU",
         description: "Multi-level fountain with cascading effects",
         rating: 4.8,
         stock: 18
@@ -161,8 +161,8 @@ const products = [
         id: 16,
         name: "Color Changing Fountain",
         category: "fountains",
-        price: 31.75,
-        image: "🎨",
+        price: 310.75,
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rYojF9NS03mdxNzZA1eRFrk062S4DEG4uwAiZcI3FxoaLT31YjHaOmXzoiqxkGzMvL8&usqp=CAU",
         description: "Fountain that changes colors during display",
         rating: 4.7,
         stock: 22
@@ -173,7 +173,7 @@ const products = [
         id: 17,
         name: "Classic Roman Candle",
         category: "roman-candles",
-        price: 16.99,
+        price: 160.99,
         image: "🕯️",
         description: "Traditional multi-shot roman candle",
         rating: 4.5,
@@ -183,7 +183,7 @@ const products = [
         id: 18,
         name: "Super Roman Candle",
         category: "roman-candles",
-        price: 26.50,
+        price: 260.50,
         image: "🔥",
         description: "Extra powerful roman candle with more shots",
         rating: 4.8,
@@ -193,7 +193,7 @@ const products = [
         id: 19,
         name: "Color Wheel Candle",
         category: "roman-candles",
-        price: 21.99,
+        price: 210.99,
         image: "🎡",
         description: "Roman candle with spinning color wheel effect",
         rating: 4.7,
@@ -203,7 +203,7 @@ const products = [
         id: 20,
         name: "Whistling Roman Candle",
         category: "roman-candles",
-        price: 23.75,
+        price: 230.75,
         image: "🎵",
         description: "Roman candle with whistling sound effects",
         rating: 4.6,
@@ -215,7 +215,7 @@ const products = [
         id: 21,
         name: "Ultimate Celebration Pack",
         category: "combo-packs",
-        price: 89.99,
+        price: 890.99,
         image: "🎉",
         description: "Complete fireworks package for big celebrations",
         rating: 4.9,
@@ -225,7 +225,7 @@ const products = [
         id: 22,
         name: "Family Fun Pack",
         category: "combo-packs",
-        price: 45.50,
+        price: 450.50,
         image: "👨‍👩‍👧‍👦",
         description: "Safe and fun fireworks for the whole family",
         rating: 4.8,
@@ -235,7 +235,7 @@ const products = [
         id: 23,
         name: "New Year Special",
         category: "combo-packs",
-        price: 75.00,
+        price: 750.00,
         image: "🎊",
         description: "Special pack for New Year celebrations",
         rating: 4.7,
@@ -245,7 +245,7 @@ const products = [
         id: 24,
         name: "Wedding Celebration Pack",
         category: "combo-packs",
-        price: 125.99,
+        price: 1250.99,
         image: "💒",
         description: "Elegant fireworks for wedding celebrations",
         rating: 4.9,
@@ -366,7 +366,7 @@ function createProductCard(product) {
     card.className = 'product-card';
     card.innerHTML = `
         <div class="product-image">
-            ${product.image}
+            ${product.image.startsWith('http') ? `<img src="${product.image}" alt="${product.name}" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">` : product.image}
         </div>
         <div class="product-info">
             <h3>${product.name}</h3>
@@ -374,7 +374,7 @@ function createProductCard(product) {
             <div class="product-rating">
                 ${generateStars(product.rating)} <span class="rating-number">(${product.rating})</span>
             </div>
-            <div class="product-price">$${product.price.toFixed(2)}</div>
+            <div class="product-price">₹${product.price.toFixed(2)}</div>
             <div class="product-stock ${product.stock < 10 ? 'low-stock' : ''}">
                 <i class="fas fa-box"></i> Stock: ${product.stock}
             </div>
